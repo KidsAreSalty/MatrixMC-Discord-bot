@@ -1,0 +1,126 @@
+{
+  "langLoaded": "[Hyper] Language en-US loaded correctly!",
+  "8ball": {
+    "yes": "Yes",
+    "no": "No",
+    "probably": "Probably",
+    "i_dont_know": "I don't know",
+    "most_likely": "Most likely",
+    "not_really": "Not really",
+    "ask_again": "Concentrate and ask me again",
+    "no_response": "I'd rather not responding to this question",
+    "noArguments": ":x: **| Incorrect usage! Please use ${prefix}8ball <question>.**"
+  },
+  "adsprot": {
+    "noPermission": ":x: **| Only the server's managers can use this command!**",
+    "alreadyOn": ":x: **| Ads protection is already enabled on this guild! To disable it, please use ${prefix}adsprot off.**",
+    "turnedOn": ":white_check_mark: **| Ads protection was turned on!**",
+    "alreadyOff": ":x: **| Ads protection is not enabled on this guild! To activate it, please use ${prefix}adsprot on.**",
+    "turnedOff": ":white_check_mark: **| Ads protection was turned off!**",
+    "incorrectUsage": ":x: **|  Incorrect command usage! Please use ${prefix}adsprot on to turn the ads protection on, or ${prefix}adsprot off to turn the ads protection off.**"
+  },
+  "avatar": {
+    "noEmbedPermission": ":x: **| I need the `EMBED_LINKS` permission to this command to work.**",
+    "showingAvatar": "**Displaying ${user}'s avatar**",
+    "requestedBy": "Requested by ${author}"
+  },
+  "ban" : {
+    "noAuthorPermission": ":x: **| You need to have the `BAN MEMBERS` permission to use this command.**",
+    "noMention": ":x: **| You must mention someone!**",
+    "cannotBan": ":x: **| You cannot ban <@${user}>.**",
+    "cannotBanBot": ":x: **| You cannot ban me.**",
+    "cannotBanAuthor": ":x: **| You can't ban yourself!**",
+    "banningUser": "**You have 30 seconds to reply to this message with a reason for banning <@${user}>**",
+    "bannedUserLine1": ":white_check_mark: **| <@${user}> got successfully banned from the *${guild}* guild!**",
+    "bannedUserLine2": "**Reason: ${reason}**",
+    "bannedUserLine3": "**Moderator: ${moderator}**",
+    "canceled": ":x: **| Ban command canceled.**"
+  },
+  "cats": {
+    "noEmbedPermission": ":x: **| I need the `EMBED_LINKS` permission to this command to work.**",
+    "cuteMessage": "THEY ARE SO CUTE!!"
+  },
+  "dogs": {
+    "noEmbedPermission": ":x: **| I need the `EMBED_LINKS` permission to this command to work.**",
+    "cuteMessage": "THEY ARE SO CUTE!!"
+  },
+  "kick" : {
+    "noAuthorPermission": ":x: **| You need to have the `KICK MEMBERS` permission to use this command.**",
+    "noMention": ":x: **| You must mention someone!**",
+    "cannotKick": ":x: **| You cannot ban <@${user}>.**",
+    "cannotKickBot": ":x: **| You cannot kick me.**",
+    "cannotKickAuthor": ":x: **| You can't kick yourself!**",
+    "kickingUser": "**You have 30 seconds to reply to this message with a reason for kicking <@${user}>**",
+    "kickedUserLine1": ":white_check_mark: **| <@${user}> got successfully kicked from the *${guild}* guild!**",
+    "kickedUserLine2": "**Reason: ${reason}**",
+    "kickedUserLine3": "**Moderator: ${moderator}**",
+    "canceled": ":x: **| Kick command canceled.**"
+  },
+  "lockdown": {
+    "incorrectUsage": ":x: **| Incorrect usage! Please use ${prefix}lockdown <time in minutes>**",
+    "incorrectArgument": ":x: **| The provided argument is not a valid duration.**",
+    "noPermission": ":x: **| You need to have the `ADMINISTRATOR` permission to use this command!**",
+    "lockdownDisabled": ":white_check_mark: **| Lockdown disabled.**",
+    "lockdownActivated": ":white_check_mark: **| Lockdown activated! This channel is muted for ${duration}. Only members with the ADMINISTRATOR permission can text.**"
+  },
+  "mcserver": {
+    "embedTitle": "Server informations for ${server}",
+    "version" : "Version:",
+    "players": "Players:",
+    "noEmbedPermission": ":x: **| I need the `EMBED_LINKS` permission to this command to work.**"
+  },
+  "meme": {
+    "noEmbedPermission": ":x: **| I need the `EMBED_LINKS` permission to this command to work.**"
+  },
+  "ping": {
+    "ping": ":ping_pong: **| Pong! My ping is: ${ping} ms**"
+  },
+  "tempmute": {
+    "noPermission": ":x: **| You need to have the `MANAGE_GUILD` permission to use this command.**",
+    "invalidDuration": ":x: **| The provided argument is not a valid duration.**",
+    "noMention": ":x: **| You must mention someone to unmute them.**",
+    "noRolesPermission": ":x: **| I need the `MANAGE ROLES` permission to this command to work.**",
+    "muted": ":white_check_mark: **| ${user} was successfully muted for ${duration}**",
+    "creatingRole": "**Muted role created, executing mute command...**",
+    "noRoleAsigned": ":x: **| User cannot be unmuted because he does not longer have the MUTED role assigned.**",
+    "unmuted": ":white_check_mark: | ${user} was successfully unmuted!**"
+  },
+  "purge": {
+    "invalidNumber": ":x: **| The provided argument is not a valid number.**",
+    "noPermission": ":x: **| You need to have the `MANAGE MESSAGES` permission to use this command.**",
+    "purged": ":white_check_mark: **| Successfully deleted ${messages} messages!**"
+  },
+  "setprefix": {
+    "noPermission": ":x: **| You need to have the `MANAGE_GUILD` permission to use this command.**",
+    "incorrectUsage": ":x: **| Incorrect usage!**",
+    "prefixSet": "**:white_check_mark: | The prefix was set to ${prefix}!**",
+    "blacklistedPrefix": ":x: **| Blacklisted prefix! Please choose another prefix.**",
+    "cooldown": ":x: | **Wait 1 minute before changing the prefix again.**"
+  },
+  "setwelcome": {
+    "noPermission": ":x: **| You need to have the `MANAGE_GUILD` permission to use this command.**",
+    "step1": ":white_check_mark: **Alright, let's start the setup. First, what channel you want the welcome messages to be in?\nYou can type `cancel` to stop the setup.\n\n`Type the name of the channel the welcome messages you want to be in.`**",
+    "canceled": "**:x: | Setup canceled.**",
+    "invalidChannel": ":x: **| Invalid channel name! Check if the entered channel's name is correct and then type the command again.**",
+    "invalidTextChannel": ":x: **| Invalid text channel! Check if the entered text channel's name is correct and then type the command again.**",
+    "noMessagePermission": ":x: **| I can't send messages in that channel! Please make sure that I have the `SEND MESSAGES` permission in that channel and then type the command again.**",
+    "step2": ":white_check_mark: **| Got it, the welcome messages will be sent in <#${channel}>. What should be the message?\nOptions:\n ```{user} = the user that just joined your guild```\n\n`Type the message you want me to send when a member joins the guild`**",
+    "finished": ":white_check_mark: **| Alright, I set the welcome message to be `${message}` in the <#${channel}> channel!**"
+  },
+  "unmute": {
+    "noMention": ":x: **| You must mention someone to unmute them!**",
+    "noPermission": ":x: **| You need to have the `MANAGE_GUILD` permission to use this command.**",
+    "noMutedRole": ":x: **| The Muted role does not exist. Use the tempmute command to create it.**",
+    "unmuted": ":white_check_mark: | ${user} was successfully unmuted!**",
+    "noRoleAsigned": ":x: **| User cannot be unmuted because he does not longer have the MUTED role assigned.**"
+  },
+  "website": {
+    "website": ":globe_with_meridians: **| Our website is:** https://example.com"
+  },
+  "say": {
+    "noArguments": ":x: **| Incorrect usage! Please use ${prefix}say <words>.**"
+  },
+  "embed": {
+    "noArguments": ":x: **| Incorrect usage! Please use ${prefix}embed !<title> !<description>.**"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "langLoaded": "[Hyper] Limba RO a fost încărcată cu succes!",
+  "8ball": {
+    "yes": "Da",
+    "no": "Nu",
+    "probably": "Probabil",
+    "i_dont_know": "Nu știu",
+    "most_likely": "Cel mai probabil",
+    "not_really": "Nu chiar",
+    "ask_again": "Concentreăza-te si repetă întrebarea",
+    "no_response": "Aș prefera să nu răspund la această întrebare",
+    "noArguments": ":x: **| Argumente invalide! Folosește ${prefix}8ball <întrebare>.**"
+  },
+  "adsprot": {
+    "noPermission": ":x: **| Doar managerul server-ului poate utiliza această comandă!**",
+    "alreadyOn": "**:x: | Protecția Anti-Reclamă este deja pornită. Pentru a o dezactiva, folosiți ${prefix}adsprot off**",
+    "turnedOn": "**:white_check_mark: | Protecția Anti-Reclamă a fost pornită!**",
+    "alreadyOff": "**:x: | Protecția Anti-Reclamă este deja oprită. Pentru a o activa, folosiți ${prefix}adsprot on**",
+    "turnedOff": "**:white_check_mark: | Protecția Anti-Reclamă a fost oprită!**",
+    "incorrectUsage": ":x: **| Folosiința incorectă! Folosește ${prefix}adsprot on pentru a pornii protecția anti-reclamă, sau ${prefix}adsprot off pentru a oprii protecția anti-reclamă.**"
+  },
+  "avatar": {
+    "noEmbedPermission": ":x: **| Am nevoie de permisiunea `EMBED LINKS` pentru a face ca această comandă sa funcționeze.**",
+    "showingAvatar": "**Arăt avatarul lui ${user}**",
+    "requestedBy": "Cerut de către ${author}"
+  },
+  "ban" : {
+    "noAuthorPermission": ":x: **| Trebuie să ai permisiunea de `BAN MEMBERS` pentru a putea utiliza aceasă comanda.**",
+    "noMention": ":x: **| Trebuie să menționezi o persoană!**",
+    "cannotBan": ":x: **| Nu îl poți bana pe <@${user}>.**",
+    "cannotBanBot": ":x: **| Nu mă poți bana.**",
+    "cannotBanAuthor": ":x: **| Nu te poți bana singur!**",
+    "banningUser": "**Ai 30 de secunde pentru a răspunde cu un motiv pentru a îl bana pe <@${user}>**",
+    "bannedUserLine1": "**:white_check_mark: | <@${user}> a fost banat cu succes din server-ul *${guild}***",
+    "bannedUserLine2": "**Motiv: ${reason}**",
+    "bannedUserLine3": "**Moderator: ${moderator}**",
+    "canceled": ":x: **| Comandă anulată.**"
+  },
+  "cats": {
+    "noEmbedPermission": ":x: **| Am nevoie de permisiunea `EMBED LINKS` pentru a face ca această comandă sa funcționeze.**",
+    "cuteMessage": "SUNT ATAT DE DRAGUȚI!!"
+  },
+  "dogs": {
+    "noEmbedPermission": ":x: **| Am nevoie de permisiunea `EMBED LINKS` pentru a face ca această comandă sa funcționeze.**",
+    "cuteMessage": "SUNT ATAT DE DRAGUȚI!!"
+  },
+  "kick" : {
+    "noAuthorPermission": ":x: **| Trebuie să ai permisiunea de `KICK MEMBERS` pentru a putea utiliza aceasă comanda.**",
+    "noMention": ":x: **| Trebuie să menționezi o persoană!**",
+    "cannotKick": ":x: **| Nu îl poți da afară pe <@${user}>.**",
+    "cannotKickBot": ":x: **| Nu mă poți da afară.**",
+    "cannotKickAuthor": ":x: **| Nu te poți da afară singur!**",
+    "kickingUser": "**Ai 30 de secunde pentru a răspunde cu un motiv pentru a îl da afară pe <@${user}>**",
+    "kickedUserLine1": "**:white_check_mark: | <@${user}> a fost dat afară cu succes din server-ul *${guild}***",
+    "kickedUserLine2": "**Motiv: ${reason}**",
+    "kickedUserLine3": "**Moderator: ${moderator}**",
+    "canceled": ":x: **| Comandă anulată.**"
+  },
+  "lockdown": {
+    "incorrectUsage": ":x: **| Folosiința incorectă! Folosește ${prefix}lockdown <timp în minute>**",
+    "incorrectArgument": ":x: **| Argumentul provenit nu este o durație validă.**",
+    "noPermission": ":x: **| Ai nevoie de permisiunea `ADMINISTRATOR` pentru a folosi această comandă!**",
+    "lockdownDisabled": ":white_check_mark: **| Lockdown dezactivat.**",
+    "lockdownActivated": ":white_check_mark: **| Lockdown activat! Acest canal va fi închis pentru ${duration} . Doar membrii cu permisiunea de ADMINISTRATOR pot scrie.**"
+  },
+  "mcserver": {
+    "embedTitle": "Informații despre server-ul ${server}",
+    "version" : "Versiune:",
+    "players": "Jucători:",
+    "noEmbedPermission": ":x: **| Am nevoie de permisiunea `EMBED LINKS` pentru a face ca această comandă sa funcționeze.**"
+  },
+  "meme": {
+    "noEmbedPermission": ":x: **| Am nevoie de permisiunea `EMBED LINKS` pentru a face ca această comandă sa funcționeze.**"
+  },
+  "ping": {
+    "ping": ":ping_pong: **| Pong! Ping-ul meu este: ${ping} ms**"
+  },
+  "tempmute": {
+    "noPermission": ":x: **| Trebuie să ai permisiunea de `MANAGE GUILD` pentru a putea utiliza aceasă comanda.**",
+    "invalidDuration": ":x: **| Argumentul provenit nu este o durație validă.**",
+    "noMention": ":x: **| Trebuie să menționezi o persoană!**",
+    "noRolesPermission": ":x: **| Am nevoie de permisiunea `MANAGE ROLES` pentru a face ca această comandă sa funcționeze.**",
+    "muted": ":white_check_mark: **| ${user} a primit mute pentru ${duration}**",
+    "creatingRole": "**Rolul de Muted a fost creat, execut comanda de mute...**",
+    "noRoleAsigned": ":x: **| Utilizatorul nu a putut lua unmute pentru că rolul de Muted nu îi mai este atribuit.**",
+    "unmuted": ":white_check_mark: | ${user} a fost unmuțit!**"
+  },
+  "purge": {
+    "invalidNumber": ":x: **| Argumentul provenit nu este un număr valid.**",
+    "noPermission": ":x: **| Trebuie să ai permisiunea de `MANAGE MESSAGES` pentru a putea utiliza aceasă comanda.**",
+    "purged": ":white_check_mark: **| Am șters cu succes ${messages} mesaje!**"
+  },
+  "setprefix": {
+    "noPermission": ":x: **| Trebuie să ai permisiunea de `MANAGE GUILD` pentru a putea utiliza aceasă comanda.**",
+    "incorrectUsage": ":x: **| Folosiința incorectă!**",
+    "prefixSet": "**:white_check_mark: | Prefixul a fost setat la ${prefix}!**",
+    "blacklistedPrefix": ":x: **| Prefix interzis! Alege alt prefix.**",
+    "cooldown": ":x: | **Așteaptă 1 minut până să mai schimbi prefixul.**"
+  },
+  "setwelcome": {
+    "noPermission": ":x: **| Trebuie să ai permisiunea de `MANAGE GUILD` pentru a putea utiliza aceasă comanda.**",
+    "step1": ":white_check_mark: **Bun, să incepem. În primul rând, în ce canal vrei să fie setate mesajele de bun-venit?\nPoți scrie `cancel` pentru a oprii instalarea.\n\n`Scrie numele canalui în care vrei să apară mesajele de bun-venit.`**",
+    "canceled": "**:x: | Instalare anulată.**",
+    "invalidChannel": ":x: **| Nume invalid! Verifică dacă ai introdus numele canalului corect și reîncearcă.**",
+    "invalidTextChannel": ":x: **| Canal de text invalid! Verifică dacă ai introdus numele canalului de text corect și reîncearcă.**",
+    "noMessagePermission": ":x: **| Nu pot trimite mesaje în acel canal! Verifică dacă am permisiunea de `SEND MESSAGES` iar apoi reîncearca.**",
+    "step2": ":white_check_mark: **| Am înțeles, mesajele de bun-venit vor fi trimise în canalul <#${channel}>. Care este mesajul?\nOpțiuni:\n ```{user} = utilizatorul care a intrat pe server```\n\n`Scrie mesajul pe care vrei ca eu să îl trimit când un utilizator intră pe server`**",
+    "finished": ":white_check_mark: **| Bun, am setat mesajele de bun-venit cu mesajul `${message}` în canalul <#${channel}> !**"
+  },
+  "unmute": {
+    "noMention": ":x: **| Trebuie să menționezi o persoană!**",
+    "noPermission": ":x: **| Trebuie să ai permisiunea de `MANAGE GUILD` pentru a putea utiliza aceasă comanda.**",
+    "noMutedRole": ":x: **| Rolul de Muted nu există! Folosește comanda de tempmute pentru a genera rolul de muted.**",
+    "unmuted": ":white_check_mark: | ${user} a fost unmuțit!**",
+    "noRoleAsigned": ":x: **| Utilizatorul nu a putut lua unmute pentru că rolul de Muted nu îi mai este atribuit.**"
+  },
+  "website": {
+    "website": ":globe_with_meridians: **| Website-ul nostru este:** https://example.com"
+  },
+  "say": {
+    "noArguments": ":x: **| Argumente invalide! Folosește ${prefix}say <cuvinte>.**"
+  },
+  "embed": {
+    "noArguments": ":x: **| Argumente invalide! Folosește ${prefix}embed !<titlu> !<descripție>.**"
+  }
+}

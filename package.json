@@ -1,0 +1,22 @@
+{
+  "name": "FactionPvP",
+  "description": "Client Bot: LulzYT#0045",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "moment": "^2.22.2",
+    "quick.db": "^6.3.2",
+    "array-sort": "^1.0.0",
+    "discord-anti-spam": "^1.1.6",
+    "parse-ms": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Cruise™",
+  "engines": {
+    "node": "8.x"
+  },
+  "license": "ISC"
+}

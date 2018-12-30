@@ -1,0 +1,11 @@
+{
+ "token": "NDUwODk0NDk1Njk3ODYyNjY2.Dwms8w.1YjfUuv8rWXge50CuEGdSmHS79g",
+ "prefix": "?",
+ "color": "#0000FF",
+ "mutedrole": "Probation (2 Weeks)",
+ "customerrole": "Customer",
+ "logadmincmd":true,
+ "adminlogchannel": "probation-logs",
+ "status": "idle",
+ "ip": ""
+}
